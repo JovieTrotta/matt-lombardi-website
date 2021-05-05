@@ -27,12 +27,11 @@
       </header>
       <main>
         <div class="full-width">
-          <form action="contact.php" method="post">Your name<br>
-            <input type="text" name="cf_name"><br>Your e-mail<br>
-            <input type="text" name="cf_email"><br>Message<br>
-            <textarea name="cf_message"></textarea><br>
-            <input type="submit" value="Send">
-            <input type="reset" value="Clear">
+          <form id="contact-form" method="post" action="contact-form.php">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+            <input name="email" type="email" class="form-control" placeholder="Your Name" required>
+            <textarea name="message" class="form-control" placeholder="Type your message here." row="4" required></textarea><br>
+            <input type="submit" class="form-control submit" value="SUBMIT">
           </form>
         </div>
         <footer>
