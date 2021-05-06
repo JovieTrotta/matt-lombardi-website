@@ -1,7 +1,7 @@
 /***** BASE STYLES *****/
 
 body {
-  text-align: center;
+
 }
 
 /***** GRID *****/
@@ -64,8 +64,8 @@ table {
 /***** CONTACT *****/
 
 form {
+  text-align: center;
   margin-top: 50px;
-  transition: all 4s ease-in-out;
 }
 
 .form-control {
